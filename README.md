@@ -482,4 +482,3 @@ exists in `.env`.
 ## Author
 
 Akshaya Ravikkumar
-AI-Powered SDLC Intelligence Platform
