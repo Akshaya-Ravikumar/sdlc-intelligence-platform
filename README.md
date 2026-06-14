@@ -481,4 +481,4 @@ exists in `.env`.
 
 ## Author
 
-Akshaya Ravikkumar
+Akshaya Ravikumar
