@@ -1,0 +1,21 @@
+
+Base Path: /api/v1/transactions/search
+Request:
+
+{
+  "accountId": "string",
+  "searchText": "amazon",
+  "category": "SHOPPING"
+}
+
+Response:
+
+{
+  "results": [
+    {
+      "transactionId": "TXN12345",
+      "merchant": "Amazon",
+      "amount": 125.50
+    }
+  ]
+}

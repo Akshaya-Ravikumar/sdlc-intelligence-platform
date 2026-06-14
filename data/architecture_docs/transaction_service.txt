@@ -1,0 +1,66 @@
+System: Transactions Service
+
+Description:
+The Transactions Service provides transaction history and transaction search capabilities for retail banking customers.
+
+Owner Team:
+Digital Banking Team
+
+Business Criticality:
+High
+
+Consumers:
+- Online Banking Web Application
+- Mobile Banking Application
+- Customer Service Portal
+
+Dependencies:
+
+1. Core Banking Service
+   Purpose:
+   Retrieves account transaction records.
+
+2. Customer Profile Service
+   Purpose:
+   Retrieves customer account ownership information.
+
+3. Statement Service
+   Purpose:
+   Generates monthly statements.
+
+4. Fraud Monitoring Service
+   Purpose:
+   Flags suspicious transactions.
+
+5. Notification Service
+   Purpose:
+   Sends dispute status updates.
+
+APIs:
+
+GET /transactions
+
+GET /transactions/search
+
+GET /transactions/{transactionId}
+
+POST /transactions/dispute
+
+Database:
+transaction_db
+
+Tables:
+- transactions
+- transaction_categories
+- dispute_requests
+
+SLA:
+99.95%
+
+Average Daily Transactions:
+12 Million
+
+Compliance Requirements:
+PCI DSS
+SOX
+FFIEC

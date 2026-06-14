@@ -1,0 +1,20 @@
+Service: Fraud Monitoring Service
+
+Base Path: /api/v1/fraud
+
+Endpoints: POST /fraud/check
+
+Request:
+
+{
+  "customerId": "C123",
+  "transactionId": "TXN12345",
+  "amount": 5000
+}
+
+Response:
+
+{
+  "riskScore": 92,
+  "decision": "REVIEW"
+}

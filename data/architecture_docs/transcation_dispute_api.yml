@@ -1,0 +1,16 @@
+Endpoints: POST /transactions/dispute
+Base Path: /api/v1/transactions/dispute
+Request:
+
+{
+  "transactionId": "TXN12345",
+  "reasonCode": "FRAUD",
+  "description": "Unauthorized charge"
+}
+
+Response:
+
+{
+  "disputeId": "DSP1001",
+  "status": "OPEN"
+}

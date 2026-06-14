@@ -1,0 +1,26 @@
+Incident ID:
+INC-1290
+
+Service:
+Transactions Service
+
+Severity:
+Critical
+
+Date:
+2025-04-03
+
+Issue:
+Dispute creation API failure.
+
+Root Cause:
+Notification Service contract change.
+
+Customer Impact:
+Customers unable to submit disputes.
+
+Resolution:
+Rollback of Notification Service API changes.
+
+Lessons Learned:
+Implement contract testing between dependent services.

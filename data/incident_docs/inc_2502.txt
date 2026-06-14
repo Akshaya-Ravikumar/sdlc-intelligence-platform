@@ -1,0 +1,26 @@
+Incident ID:
+INC-1178
+
+Service:
+Transactions Service
+
+Severity:
+Medium
+
+Date:
+2025-01-20
+
+Issue:
+Delayed transaction visibility.
+
+Root Cause:
+Core Banking Service latency.
+
+Customer Impact:
+Transactions appeared 15 minutes late.
+
+Resolution:
+Increased caching and optimized queries.
+
+Lessons Learned:
+Monitor dependency latency before deployment.

@@ -1,0 +1,23 @@
+System: Fraud Monitoring Service
+
+Owner Team:
+Fraud Risk Team
+
+Consumers:
+- Transactions Service
+- Payment Service
+- ACH Service
+
+APIs:
+
+POST /fraud/check
+
+GET /fraud/alerts
+
+Risk Level:
+Critical
+
+Compliance:
+AML
+KYC
+OFAC

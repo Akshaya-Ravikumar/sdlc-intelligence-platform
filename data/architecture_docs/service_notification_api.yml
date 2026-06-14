@@ -1,0 +1,20 @@
+Service: Notification Service
+
+Base Path: /api/v1/notifications
+
+Endpoints: POST /notifications
+
+Request:
+
+{
+  "customerId": "C123",
+  "channel": "EMAIL",
+  "message": "Dispute submitted"
+}
+
+Response:
+
+{
+  "notificationId": "NOT1001",
+  "status": "SENT"
+}

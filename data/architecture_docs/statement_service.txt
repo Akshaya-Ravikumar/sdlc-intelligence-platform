@@ -1,0 +1,21 @@
+System: Statement Service
+
+Owner Team:
+Digital Documents Team
+
+Consumers:
+- Transactions Service
+- Mobile Banking App
+
+Dependencies:
+- Document Generation Service
+- S3 Document Repository
+
+APIs:
+
+POST /statements/generate
+
+GET /statements/{statementId}
+
+Database:
+statement_db

@@ -1,0 +1,33 @@
+Service: Transactions Service
+
+Base Path: /api/v1/transactions
+
+Endpoints: GET /transactions
+
+Description: Retrieve customer transaction history.
+
+Request:
+
+{
+  "accountId": "string",
+  "fromDate": "YYYY-MM-DD",
+  "toDate": "YYYY-MM-DD",
+  "page": 1,
+  "size": 50
+}
+
+Response:
+
+{
+  "transactions": [
+    {
+      "transactionId": "TXN12345",
+      "transactionDate": "2025-06-01",
+      "amount": 125.50,
+      "currency": "USD",
+      "type": "DEBIT",
+      "merchant": "Amazon",
+      "status": "POSTED"
+    }
+  ]
+}

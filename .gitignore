@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Mac
+.DS_Store
+
+# Chroma DB
+chroma_db/
+
+# Logs
+*.log
+
+# Python Cache
+.pytest_cache/
+
+# Build
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
